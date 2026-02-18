@@ -1,6 +1,6 @@
 "use client";
 
-import { EventCategory } from "@/lib/types";
+import { EventCategory } from "../lib/types";
 
 const categories: (EventCategory | "All")[] = [
   "All",
