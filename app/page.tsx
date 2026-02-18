@@ -1,14 +1,13 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Header } from "@/components/Header";
-import { FiltersBar } from "@/components/FiltersBar";
-import { EventCard } from "@/components/EventCard";
-import { SubmitEventModal } from "@/components/SubmitEventModal";
-import { sampleEvents } from "@/lib/sampleEvents";
-import { EventItem } from "@/lib/types";
-import { isOnOrAfter, sortByDateAsc, uniq } from "@/lib/utils";
-
+import { Header } from "../components/Header";
+import { FiltersBar } from "../components/FiltersBar";
+import { EventCard } from "../components/EventCard";
+import { SubmitEventModal } from "../components/SubmitEventModal";
+import { sampleEvents } from "../lib/sampleEvents";
+import { EventItem } from "../lib/types";
+import { isOnOrAfter, sortByDateAsc, uniq } from "../lib/utils";
 const LS_EVENTS = "ave.userEvents.v1";
 const LS_SAVED = "ave.saved.v1";
 
