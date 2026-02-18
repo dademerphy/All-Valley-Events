@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { EventCategory, EventItem } from "@/lib/types";
+import { EventCategory, EventItem } from "../lib/types";
 
 const cats: EventCategory[] = ["Family", "Music", "Food", "Sports", "Markets", "Community", "Arts", "Education"];
 
