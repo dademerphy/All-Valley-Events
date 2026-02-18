@@ -1,6 +1,6 @@
 "use client";
 
-import { EventItem } from "@/lib/types";
+import { formatEventDate } from "../lib/utils";
 import { formatEventDate } from "@/lib/utils";
 
 export function EventCard({
